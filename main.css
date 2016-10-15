@@ -1,0 +1,86 @@
+/*
+Color Palette
+#DAC0DA (218,192,218): soft purple
+#111111 (,,): almost black (text)
+#616161 (,,): dark grey
+#E0E0E0 (,,): light grey
+#FFD54F (,,): yellow
+#2196F3 (,,): light blue
+*/
+
+body {
+    background-color: #616161;
+    display: flex;
+    flex-direction: column
+}
+
+h1{}
+
+top{
+    color: #E0E0E0;
+    font-size: 5.0rem;
+    font-family: 'Lobster', cursive;
+    background-color: #2196F3;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px;*/
+    text-align: center;
+    display: flex;
+    position: static;
+}
+
+nav {
+    color: #DDDDDD;
+    background-color: #FFD54F;
+    background-size:contain;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /*  Shadow    */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: static;
+    z-index: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+
+.content {
+    background-color: #E0E0E0;
+    color: #111111;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align:justify;
+        padding: 0.5rem
+}
+
+a {
+    color: #2196F2;
+    text-decoration:none;
+}
+
+#wide-image{
+    width:100%;
+    padding-top: 40%;
+    background-image: url("https://kidskonnect.com/assets/uploads/2014/12/cats-featured.jpg");
+    background-size: cover;
+    margin:auto;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
